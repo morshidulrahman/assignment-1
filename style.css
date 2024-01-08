@@ -23,4 +23,20 @@ body{
     -moz-border-radius: 16px;
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroText{
+    color: #FFF;
+    width: 390px;
+}
+.heroText h3{
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+.heroText h2{
+    text-align: center;
+    font-size: 50px;
 }
