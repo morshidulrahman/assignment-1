@@ -75,7 +75,7 @@ body{
 }
 
 section{
-    margin: 40px 0px;
+    margin: 80px 0px;
 }
 
 .vectorparty{
@@ -116,7 +116,6 @@ section{
 }
 .datetime{
     display: flex;
-    
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -296,4 +295,55 @@ img.holiday_bottom {
     top: 12%;
     left: -37%;
 }
- 
+ .subscribe{
+    margin: auto;
+    text-align: center;
+ }
+ .mailimg{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+ }
+ .subscribe_content{
+    padding: 80px 0px;
+background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+height: 400px;
+ }
+ .subscribe_content h2{
+    padding: 15px;
+    font-size: 30px;
+ }
+ .subscribe_content p{
+    color: rgba(7, 2, 17, 0.60);
+    width: 600px;
+    font-family: Inter;
+    margin: auto;
+ }
+ .input_subscribe {
+    position: relative;
+    width: 600px;
+    margin: auto;
+    padding-top: 30px;
+}
+.input_subscribe input {
+    padding: 15px;
+    border: 2px solid #f2dada;
+    border-radius: 30px;
+    width: 400px;
+    outline: none;
+}
+button.input_btn {
+    position: absolute;
+    width: 129px;
+    padding: 16px;
+    background: red;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    right: 98px;
+    color: white;
+    font-weight: bold;
+}
+.footer{
+    
+}
