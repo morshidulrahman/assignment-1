@@ -201,7 +201,7 @@ img.middleimg {
     padding: 10px 0px;
 }
 .Portfolio_content{
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     gap: 25px 0px;
@@ -230,3 +230,70 @@ img.middleimg {
     -ms-transition:all 2s;
     -o-transition:all 2s;
 }
+.Portfolio_Heading span{
+    color: red;
+    font-family: Inter;
+    font-weight: 600;
+}
+.Portfolio_Heading h2{
+    font-weight: 900;
+    padding: 15px 0px;
+    font-size: 36px;
+}
+.Portfolio_Heading p{
+    width: 700px;
+    color: #8b8b8f9e;
+    font-family: Inter;
+}
+.holiday_img{
+    position: relative;
+}
+.holiday_content{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.holiday_content span{
+    color: red;
+    font-family: Inter;
+    font-weight: 600;
+}
+.Holidays{
+    font-family:Merriweather !important;
+}
+.holiday_content p{
+    color: rgba(7, 2, 17, 0.60);
+    width: 700px;
+    font-family: Inter;
+    margin: auto;
+}
+.holiday_content h3{
+    font-weight: 900;
+    padding: 10px 0px;
+    font-size: 40px;
+}
+.holiday_img{
+    display: flex;
+    justify-content: space-between;
+}
+img.holiday_bottom {
+    transform: translateY(-5px);
+}
+.holiday_image_details{
+    position: relative;
+}
+.holiday_left img {
+    position: absolute;
+    bottom: -33%;
+    left: 5%;
+    z-index: 9999;
+}
+.holiday_right{
+    position: relative;
+}
+.holiday_right_img_1 {
+    position: absolute;
+    top: 12%;
+    left: -37%;
+}
+ 
